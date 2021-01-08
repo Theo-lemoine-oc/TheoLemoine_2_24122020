@@ -26,6 +26,21 @@
 }
 
 
+/***** IMAGES *****/
+#hotel-le-soleil-du-matin {
+    background-image: url(img/hebergements/1.jpg);
+}
+
+#au-coeur-de-leau {
+    background-image: url(img/hebergements/2.jpg);
+}
+
+#hotel-tout-bleu-et-blanc {
+    background-image: url(img/hebergements/3.jpg);
+}
+
+
+
 
 /********** MOBILE **********/
 @media all and (max-device-width: 480px) {
@@ -95,7 +110,7 @@
     h1 {
         padding: 0 22px;
         font-weight: 800;
-        font-size: 21px;
+        font-size: 22px;
     }
 
     h2 {
@@ -226,7 +241,7 @@
 
     /* Information filters */
     .information-filters {
-        padding: 0 8px;
+        padding: 0 12px;
         display: inline-flex;
         justify-content: center;
         width: 100%;
@@ -234,7 +249,7 @@
         margin-top: 20px;
     }
 
-    .information-filters li i {
+    .information-filters i {
         width: 10px;
         height: 10px;
         border: #f2f2f2 solid 2px;
@@ -255,16 +270,88 @@
     .info-filters-wignet p {
         width: 300px;
         margin-top: 5px;
-        padding: 0 10px;
+        padding: 0 12px;
     }
 
 
+
     /* POPULARY */
+
     .populary-section {
         background-color: #f2f2f2;
         width: 100%;
         height: auto;
-        padding: 10px;
+        padding: 0 5px;
+        list-style-type: none;
+    }
+
+    .populary-wignet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    .populary-wignet h1 {
+        padding: 0 12px;
+    }
+
+    .populary-wignet i {
+        font-size: 23px;
+        padding: 0 12px;
+    }
+
+    /* Populary Choice */
+    .populary-choice {
+        width: auto;
+        height: 140px;
+        margin: 0 25px 10px 15px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 10px 10px #dddddd;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .populary-image {
+        height: 140px;
+        width: 160px;
+        overflow: hidden;
+        border-radius: 20px 0 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .populary-image div {
+        height: 130px;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 5px;
+        border-radius: 16px 0 0 16px;
+    }
+
+    .populary-text-content {
+        width: auto;
+        height: 140px;
+    }
+
+    .populary-text {
+
+    }
+
+    .populary-text h2 {
+        font-size: 17px;
+    }
+
+    .populary-text p {
+        font-size: 15px;
+    }
+
+    .notice-star {
+        font-size: 12px;
+        padding: 20px 22px;
     }
 
 
