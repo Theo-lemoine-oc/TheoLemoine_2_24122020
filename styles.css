@@ -243,8 +243,9 @@
 
     .input-format::placeholder {
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 700;
         color: #000;
+        font-family: 'Raleway', sans-serif;
     }
 
     .submit-text {
@@ -293,7 +294,7 @@
         margin-left: -5px;
     }
 
-    .filter-title {
+    .filters-txt {
         font-weight: 800;
         font-size: 16px;
         padding: 0;
@@ -593,12 +594,12 @@
     body {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
-        margin: 0 40px;
+        margin: 0px;
         padding: 0;
     }
 
     #container {
-        width: 100%;
+        width: 70%;
         height: auto;
         margin: 0 auto;
     }
@@ -659,6 +660,20 @@
         margin-bottom: 6px;
     }
 
+    .type2 {
+        border-top: 3px solid transparent;
+        transition: 0.5s;
+    }
+
+    .type2:hover {
+        border-top: 3px solid #0065FC;
+        transition: 0.5s;
+    }
+
+    .type2 a {
+        margin-bottom: 6px;
+    }
+
     .nav-link {
         text-decoration: none;
     }
@@ -678,24 +693,24 @@
     .search_title {
         width: 100%;
         height: 10px;
+        font-size: 22px;
     }
 
     .search-subtitle {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .search-bar {
-        width: 350px;
-        height: 40px;
-        background-color: #ccc;
+        width: 420px;
+        height: 50px;
         display: flex;
-        border-radius: 12px;
+        border-radius: 15px;
         overflow: hidden;
     }
 
     .location-block {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         background-color:#f2f2f2;
         display: flex;
         justify-content: center;
@@ -703,36 +718,43 @@
     }
 
     .input-block {
-        width: 200px;
-        height: 40px;
+        width: 240px;
+        height: 50px;
         display: flex;
         align-items: center;
     }
 
     .input-format {
-        width: 200px;
-        height: 36px;
+        width: 240px;
+        height: 46px;
         border: none;
         padding-left: 15px;
         color: #000;
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 700;
         outline: none;
         border: #f2f2f2 1px solid;
     }
 
     .input-format::placeholder {
         color: #000;
-        font-weight: 600;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
     }
 
     .submit-block {
-        width: 110px;
-        height: 40px;
+        width: 130px;
+        height: 50px;
         background-color: #0065FC;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 0.5s;
+    }
+
+    .submit-block:hover {
+        background-color: #0048b4;
+        transition: 0.5s;
     }
 
     .submit-icon {
@@ -740,23 +762,26 @@
     }
 
     .submit-button {
-        width: 110px;
-        height: 40px;
+        width: 130px;
+        height: 50px;
         background-color: transparent;
         border:none;
         display: flex;
         justify-content: center;
         align-items: center;
+        outline: none;
+        cursor: pointer;
     }
 
     .submit-text {
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 17px;
+        font-weight: 700;
         letter-spacing: 1px;
+        font-family: 'Raleway', sans-serif;
     }
 
 
-    
+
     /* FILTERS */
 
     .filters {
@@ -775,22 +800,23 @@
 
     .filters-section {
         width: auto;
-        height: 35px;
+        height: 45px;
         border: 2px solid #ccc;
-        border-radius: 20px;
+        border-radius: 25px;
         display: flex;
         flex-direction: row;
         margin: 0 10px;
     }
 
     .filters_title {
-        font-size: 14px;
+        font-size: 20px;
+        font-weight: 700;
         padding: 0 20px 0 0;
     }
 
     .icon-format {
-        width: 39px;
-        height: 39px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         background-color: #DEEBFF;
         display: flex;
@@ -800,13 +826,13 @@
         margin-top: -2px;
     }
 
-    .filter-title {
+    .filters-txt {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 0 15px;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .information-filters {
@@ -826,9 +852,9 @@
     .info-filters-wignet i {
         border: 1px solid #ccc;
         border-radius: 50%;
-        height: 20px;
-        width: 20px;
-        font-size: 10px;
+        height: 24px;
+        width: 24px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -836,7 +862,305 @@
     }
 
     .info-filters-wignet p {
-        font-size: 13px;
+        font-size: 18px;
     }
+
+
+
+    /* POPULARIES */
+
+    .populary-hebergements {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        overflow: hidden;
+    }
+
+    .populary-hebergements section {
+        padding: 10px 20px;
+    }
+
+    /* ATTRIBUTS FOR 3 TITLES */
+    .populary-hebergement-activities-title { 
+        font-size: 24px;
+        font-weight: 800;
+        color: #000;
+    }
+
+    .populary-section {
+        width: 30%;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        margin-left: 40px;
+    }
+
+    .populary-wignet {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .populary-wignet i {
+        margin: 0 0 0 auto;
+        padding: 0 10px 0 0;
+        font-size: 20px;
+    }
+
+    .populary-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .populary-choice {
+        width: 95%;
+        height: 150px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 20px auto;
+        background-color: white;
+        box-shadow: 0 0 7px #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .populary-image {
+        width: 45%;
+        height: 150px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .populary-image div {
+        height: 140px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .populary-text-content {
+        width: 55%;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .populary-text h2 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .populary-text p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .populary-notice-star {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .populary-notice-star i {
+        font-size: 10px;
+    }
+    
+
+    /* HEBERGEMENTS */
+
+    .hebergement-section {
+        width: 70%;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .hebergement-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hebergement-title {
+        padding-left: 20px;
+    }
+
+    .hebergement-choice {
+        width: 250px;
+        height: 210px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 20px auto;
+        display: inline-table;
+        background-color: white;
+        box-shadow: 0 0 7px #ddd;  
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hebergement-image {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .hebergement-image div {
+        width: 240px;
+        height: 120px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .hebergement-text-content {
+        width: 100%;
+        height: 80px;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hebergement-text h2 {
+        font-size: 16px;
+        font-weight: 800;
+        margin: 10px 0 0 0;
+    }
+
+    .hebergement-text p {
+        font-size: 13px;
+        font-weight: 500;
+        margin: 5px 0 0 0;
+    }
+
+    .hebergement-notice-star {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .hebergement-notice-star i {
+        font-size: 11px;
+        width: 10px;
+    }
+
+    .more h2 {
+        font-size: 18px;
+        font-weight: 800;
+        padding-left: 20px;
+    }
+
+
+
+    /* ACTIVITIES */
+
+    .activities-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .activities-title {
+        width: 100%;
+    }
+
+    .activities-content {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .activities-choice {
+        width: 300px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0 2px 10px #ddd;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .activties-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #vieux_port {
+        height: 460px;
+    }
+
+    #fort_de_pomegues {
+        height: 300px;
+    }
+
+    #iles_du_frioul {
+        height: 200px;
+    }
+
+    #parc-nationel_des_calanques {
+        height: 460px;
+    }
+
+    #notre_dame_de_la_garde {
+        height: 250px;
+    }
+
+    #parc_longchamp {
+        height: 250px;
+    }
+
+    .activities-image {
+        width: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .activities-image div {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .activities-text-content {
+        width: 300px;
+        height: 60px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .activities-text {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+    }
+
+    .activities-text h2 {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 800;
+    }
+
+
+
+    /* FOOTER */
+
+    
+
 }
 /*****************************************************/
