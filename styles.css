@@ -93,7 +93,7 @@
 
 
 /********** MOBILE **********/
-@media all and (max-device-width: 480px) {
+@media all and (max-device-width: 414px) {
 
     /***** GENERAL *****/
     body {
@@ -577,8 +577,99 @@
 
 
 
+
 /********** TABLETTE **********/
-@media all and (min-device-width: 481px) {
+@media all and (min-device-width: 415px) {
+    /***** GENERAL *****/
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+
+    #container {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+    /***** HEADER *****/
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #logo {
+        height: 100px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* NAVIGATION */
+
+    .nav-block {
+        width: auto;
+        height: 100px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 0 0 auto;
+    }
+
+    .nav-ul {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .nav-ul li {
+        width: 100%;
+        height: 100px;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .type1 {
+        border-top: 3px solid #0065FC;
+    }
+
+    .type1 a {
+        margin-bottom: 6px;
+    }
+
+    .type2 {
+        border-top: 3px solid transparent;
+        transition: 0.5s;
+    }
+
+    .type2 a {
+        margin-bottom: 6px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+    }
+
+    /*****************************/
+
+
+    /***** BODY *****/
+
+
+
 
 }
 /*****************************************************/
@@ -587,13 +678,14 @@
 
 
 
+
 /********** DEKSTOP **********/
-@media all and (min-device-width: 920px) {
+@media all and (min-device-width: 1280px) {
     /***** GENERAL *****/
     body {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
-        margin: 0px;
+        margin: 0;
         padding: 0;
     }
 
@@ -1165,7 +1257,7 @@
 
 
 
-
+    /*****************************/
     /* FOOTER */
 
     .footer-section {
