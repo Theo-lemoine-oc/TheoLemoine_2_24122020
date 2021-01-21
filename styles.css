@@ -824,6 +824,8 @@
         font-size: 18px;
     }
 
+    /* Informations filters */
+
     .information-filters {
         width: 100%;
         height: auto;
@@ -854,6 +856,286 @@
         font-size: 18px;
     }
 
+
+    
+    /**************************************/
+    /* ATTRIBUTS FOR 3 TITLES */
+    .populary-hebergement-activities-title { 
+        font-size: 22px;
+        font-weight: 800;
+        color: #000;
+        margin-bottom: 5px;
+    }
+
+    /* POPULARIES */
+
+    .populary-title {
+        margin-top: 10px;
+    }
+
+    .populary-hebergements {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .populary-hebergements section {
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .populary-section {
+        width: auto;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+    }
+
+    .populary-wignet {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .populary-wignet i {
+        margin: 0 0 0 auto;
+        padding: 0 10px 0 0;
+        font-size: 20px;
+    }
+
+    .populary-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .populary-choice {
+        width: 600px;
+        height: 150px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 20px auto;
+        background-color: white;
+        box-shadow: 0 0 7px #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+    }
+
+    .populary-image {
+        width: 40%;
+        height: 150px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .populary-image div {
+        height: 140px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .populary-text-content {
+        width: 55%;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .populary-text h2 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .populary-text p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .populary-notice-star {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .special-star {
+        margin-top: 18px;
+    }
+
+    .populary-notice-star i {
+        font-size: 13px;
+    }
+    
+
+    /* HEBERGEMENTS */
+
+    .hebergement-section {
+        width: auto;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .hebergement-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hebergement-title {
+        padding-left: 20px;
+    }
+
+    .hebergement-choice {
+        width: 250px;
+        height: 210px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 20px auto;
+        display: inline-table;
+        background-color: white;
+        box-shadow: 0 0 7px #ddd;  
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .hebergement-image {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .hebergement-image div {
+        width: 240px;
+        height: 120px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .hebergement-text-content {
+        width: 100%;
+        height: 80px;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hebergement-text h2 {
+        font-size: 16px;
+        font-weight: 800;
+        margin: 10px 0 0 0;
+    }
+
+    .hebergement-text p {
+        font-size: 13px;
+        font-weight: 500;
+        margin: 5px 0 0 0;
+    }
+
+    .hebergement-notice-star {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .hebergement-notice-star i {
+        font-size: 11px;
+        width: 10px;
+    }
+
+    .more h2 {
+        font-size: 18px;
+        font-weight: 800;
+        padding-left: 20px;
+    }
+
+
+
+    /* ACTIVITIES */
+
+    .activities-section {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .activities-title h1 {
+        margin-bottom: 25px;
+        padding: 0 12px;
+    }
+
+    .activities-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    /* Activities choices */
+    .activities-choice {
+        width: 300px;
+        height: 190px;
+        border-radius: 20px;
+        overflow: hidden;
+        display: inline-table;
+        background-color: white;
+        box-shadow: 0 0 7px #ddd;  
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .activities-image {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .activities-image div {
+        height: 120px;
+        width: 345px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .activities-text-content {
+        width: 100%;
+        height: 100px;
+        margin-left: 15px;
+    }
+    
+    .activities-text h2 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+
+
+    /* FOOTER */
+    
 
 
 }
@@ -1113,6 +1395,8 @@
         font-size: 18px;
     }
 
+    /* Informations filters */
+
     .information-filters {
         width: 100%;
         height: auto;
@@ -1343,7 +1627,15 @@
         font-size: 18px;
         font-weight: 800;
         padding-left: 20px;
+        cursor: pointer;
+        transition: 0.2s;
     }
+
+    .more h2:hover {
+       color: #0065FC;
+       transition: 0.2s;
+    }
+
 
 
 
@@ -1375,7 +1667,7 @@
         cursor: pointer;
     }
 
-    .activties-column {
+    .activities-column {
         display: flex;
         flex-direction: column;
     }
@@ -1425,6 +1717,7 @@
         background-color: white;
         position: absolute;
         bottom: 0;
+        margin-left: 0;
     }
 
     .activities-text {
