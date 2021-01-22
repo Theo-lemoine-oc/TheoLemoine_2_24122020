@@ -785,7 +785,7 @@
     .filters-section {
         width: auto;
         height: 45px;
-        border: 2px solid #ccc;
+        border: 2px solid #f2f2f2;
         border-radius: 25px;
         margin: 5px 10px;
         display: flex;
@@ -831,7 +831,7 @@
     }
 
     .info-filters-wignet i {
-        border: 1px solid #ccc;
+        border: 1px solid #f2f2f2;
         border-radius: 50%;
         height: 24px;
         width: 24px;
@@ -1387,12 +1387,18 @@
     .filters-section {
         width: auto;
         height: 45px;
-        border: 2px solid #ccc;
+        border: 2px solid #f2f2f2;
         border-radius: 25px;
         display: flex;
         flex-direction: row;
         margin: 0 10px;
         cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .filters-section:hover {
+        border: 2px solid #d8d8d8;
+        transition: 0.5s;
     }
 
     .filters_title {
@@ -1439,7 +1445,7 @@
     }
 
     .info-filters-wignet i {
-        border: 1px solid #ccc;
+        border: 1px solid #f2f2f2;
         border-radius: 50%;
         height: 24px;
         width: 24px;
@@ -1519,6 +1525,12 @@
         align-items: center;
         flex-direction: row;
         cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .populary-choice:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
     }
 
     .populary-image {
@@ -1601,6 +1613,12 @@
         justify-content: center;
         flex-direction: column;
         cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .hebergement-choice:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
     }
 
     .hebergement-image {
@@ -1692,6 +1710,12 @@
         position: relative;
         overflow: hidden;
         cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .activities-choice:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
     }
 
     .activities-column {
