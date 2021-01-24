@@ -98,7 +98,7 @@
     /***** GENERAL *****/
     body {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         margin: 0;
@@ -541,6 +541,10 @@
 
 
     /***** FOOTER *****/
+
+    footer {
+        width: 100%;
+    }
 
     .footer-section {
         background-color: #f2f2f2;
@@ -1123,18 +1127,45 @@
     }
 
 
+    /* Modifications activities height */
+    #vieux_port .activities-text-content,
+    #parc-national_des_calanques .activities-text-content {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #vieux_port {
+        height: 394px;
+    }
+
+    #vieux_port .activities-image,
+    #vieux_port .activities-image #image-10 {
+        height: 100%;
+        flex: 1;
+    }
+
+    #parc-national_des_calanques {
+        height: 394px;
+    }
+    
+    #parc-national_des_calanques .activities-image,
+    #parc-national_des_calanques .activities-image #image-13 {
+        height: 100%;
+        flex: 1;
+    }
+
+
 
     /*****************************/
     /* FOOTER */
 
     .footer-section {
         background-color: #f2f2f2;
-        width: 745px;
+        width: auto;
         height: auto;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         padding: 30px 0 20px 20px;
-        margin-left: -15px;
     }
 
     .footer-section h2 {
@@ -1735,7 +1766,7 @@
         height: 200px;
     }
 
-    #parc-nationel_des_calanques {
+    #parc-national_des_calanques {
         height: 460px;
     }
 
@@ -1790,11 +1821,12 @@
     /* FOOTER */
 
     .footer-section {
+        margin-top: 30px;
         background-color: #f2f2f2;
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         padding: 30px 0 20px 20px;
     }
 
