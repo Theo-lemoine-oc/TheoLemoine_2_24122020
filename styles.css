@@ -1168,6 +1168,15 @@
         padding: 30px 0 20px 20px;
     }
 
+    .footer-content {
+        width: 100% ;
+        height: auto;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+
+    }
+
     .footer-section h2 {
         font-size: 20px;
         font-weight: 700;
@@ -1828,6 +1837,13 @@
         display: flex;
         justify-content: center;
         padding: 30px 0 20px 20px;
+    }
+
+    .footer-content {
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: left;
     }
 
     .footer-section h2 {
