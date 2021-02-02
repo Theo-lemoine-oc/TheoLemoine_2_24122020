@@ -664,7 +664,7 @@
 
 /*****************************************************/
 /* Tablette */
-@media all and (min-device-width: 615px) {
+@media all and (min-width: 615px) {
     body {
         padding: 0 5%;
     }
@@ -869,7 +869,7 @@
 
 /*****************************************************/
 /* MINI DESKTOP */
-@media all and (min-device-width: 1200px) {
+@media all and (min-width: 1200px) {
     .populary-section {
         max-width: 30%;
     }
@@ -889,7 +889,7 @@
 
 /*****************************************************/
 /* SMALL DESKTOP */
-@media all and (min-device-width: 1620px) {
+@media all and (min-width: 1620px) {
     .hebergement-content {
         display: flex;
         flex-direction: row;
@@ -904,7 +904,7 @@
 
 /*****************************************************/
 /* DESKTOP */
-@media all and (min-device-width: 1920px) {
+@media all and (min-width: 1920px) {
     /* GENERAL */
     body {
         padding: 0;
